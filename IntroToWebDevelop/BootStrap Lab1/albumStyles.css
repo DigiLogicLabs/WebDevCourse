@@ -1,0 +1,25 @@
+body {
+	background-color: black;
+	color: navy;
+	font-size: 1.1em;
+}
+	h1{
+	color: coral;
+}
+#intro {
+	font-size: 1.3em;
+}
+.colorful {
+	color: red;
+}
+@font-face {
+font-family: aFont;
+src: url("aFont.eot");
+}
+@font-face {
+font-family: aFont;
+src: url("aFont.ttf");
+}
+.myFontClass {
+	font-family:aFont, Arial, Helvetica, sans-serif;
+}
